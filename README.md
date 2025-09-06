@@ -87,6 +87,16 @@ Collection de 10 scripts Google Apps Script prêts à l'emploi pour automatis
    - Vérifiez les logs
    - Ajustez selon vos besoins
 
+### Tutoriel pour débutants
+
+Pour les utilisateurs non techniques, vous pouvez automatiser votre feuille sans ligne de commande :
+
+1. Cliquez sur le bouton **Code** en haut du dépôt GitHub et choisissez **Download ZIP** pour télécharger l’archive du projet.
+2. Décompressez l’archive ZIP sur votre ordinateur et ouvrez le dossier `scripts`.
+3. Ouvrez votre feuille Google Sheets, puis accédez au menu **Extensions > Apps Script**.
+4. Créez un nouveau projet et copiez‑collez le contenu du fichier `.gs` correspondant à la fonctionnalité désirée (par exemple `alertes‑seuils.gs`) dans l’éditeur Apps Script.
+5. Cliquez sur l’icône de disquette pour enregistrer, puis exécutez la fonction `setupTrigger()` une fois pour initialiser les déclencheurs. L’automatisation est maintenant active dans votre feuille.
+
 ## 📚 Documentation détaillée
 
 ### Par script
