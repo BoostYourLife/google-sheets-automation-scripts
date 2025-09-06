@@ -1,3 +1,20 @@
+<!--
+Ajout d'un style pour remplacer le lien de titre automatique du thème par « ACCUEIL ».
+Ce code CSS rend le texte du lien invisible et ajoute le mot « ACCUEIL » à sa place.
+-->
+<style>
+.markdown-body > h1 > a {
+  color: transparent;
+  position: relative;
+}
+.markdown-body > h1 > a::after {
+  content: "ACCUEIL";
+  color: #0969da;
+  position: absolute;
+  left: 0;
+}
+</style>
+
 # Gestion Stock
 
 Le script **gestion-stock.gs** surveille les niveaux de stock de vos produits et envoie des alertes lorsqu’un réapprovisionnement est nécessaire. Il peut servir de base pour automatiser un système de commande.

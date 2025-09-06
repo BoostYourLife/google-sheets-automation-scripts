@@ -1,3 +1,20 @@
+<!--
+Ajout d'un style pour remplacer le lien de titre automatique du thème par « ACCUEIL ».
+Ce code CSS rend le texte du lien invisible et ajoute le mot « ACCUEIL » à sa place.
+-->
+<style>
+.markdown-body > h1 > a {
+  color: transparent;
+  position: relative;
+}
+.markdown-body > h1 > a::after {
+  content: "ACCUEIL";
+  color: #0969da;
+  position: absolute;
+  left: 0;
+}
+</style>
+
 # Backup Automatique
 
 Le script **backup-automatique.gs** crée régulièrement une copie de votre fichier Google Sheets et la stocke dans Google Drive. C’est un moyen simple d’assurer un historique et une restauration rapide en cas d’erreur.

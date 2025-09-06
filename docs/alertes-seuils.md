@@ -1,3 +1,20 @@
+<!--
+Ajout d'un style pour remplacer le lien de titre automatique du thème par « ACCUEIL ».
+Ce code CSS rend le texte du lien invisible et ajoute le mot « ACCUEIL » à sa place.
+-->
+<style>
+.markdown-body > h1 > a {
+  color: transparent;
+  position: relative;
+}
+.markdown-body > h1 > a::after {
+  content: "ACCUEIL";
+  color: #0969da;
+  position: absolute;
+  left: 0;
+}
+</style>
+
 # Alertes Seuils
 
 Le script **alertes-seuils.gs** envoie des notifications par email lorsque des valeurs dépassent un seuil défini dans votre feuille Google Sheets. Il est utile pour suivre des indicateurs clés (KPI) et réagir rapidement aux anomalies.

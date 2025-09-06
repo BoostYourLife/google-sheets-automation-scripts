@@ -3,6 +3,23 @@ layout: default
 title: Google Sheets Automation Scripts
 ---
 
+<!--
+Ajout d'un style pour remplacer le lien de titre automatique du thème par « ACCUEIL ».
+Ce code CSS rend le texte du lien invisible et ajoute le mot « ACCUEIL » à sa place.
+-->
+<style>
+.markdown-body > h1 > a {
+  color: transparent;
+  position: relative;
+}
+.markdown-body > h1 > a::after {
+  content: "ACCUEIL";
+  color: #0969da;
+  position: absolute;
+  left: 0;
+}
+</style>
+
 <!-- Image en-tête pour la première page -->
 ![Logo Boost Your Life](assets/BYL_Boost_Your_Life_Paysage.png){:style="width:100%; max-width:800px; margin-bottom:20px;"}
 

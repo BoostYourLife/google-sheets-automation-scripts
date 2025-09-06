@@ -1,3 +1,20 @@
+<!--
+Ajout d'un style pour remplacer le lien de titre automatique du thème par « ACCUEIL ».
+Ce code CSS rend le texte du lien invisible et ajoute le mot « ACCUEIL » à sa place.
+-->
+<style>
+.markdown-body > h1 > a {
+  color: transparent;
+  position: relative;
+}
+.markdown-body > h1 > a::after {
+  content: "ACCUEIL";
+  color: #0969da;
+  position: absolute;
+  left: 0;
+}
+</style>
+
 # Suivi Facturation
 
 Le script **suivi-facturation.gs** permet de suivre le règlement des factures et de relancer automatiquement les clients en retard. Il est particulièrement utile pour les petites structures qui gèrent leurs factures dans Google Sheets.

@@ -1,3 +1,20 @@
+<!--
+Ajout d'un style pour remplacer le lien de titre automatique du thème par « ACCUEIL ».
+Ce code CSS rend le texte du lien invisible et ajoute le mot « ACCUEIL » à sa place.
+-->
+<style>
+.markdown-body > h1 > a {
+  color: transparent;
+  position: relative;
+}
+.markdown-body > h1 > a::after {
+  content: "ACCUEIL";
+  color: #0969da;
+  position: absolute;
+  left: 0;
+}
+</style>
+
 # Dashboard Temps Réel
 
 Ce document décrit le fonctionnement du script **dashboard-temps-reel.gs**. Il permet d’importer automatiquement des données depuis une API externe et de les afficher dans un tableau de bord Google Sheets en temps réel.

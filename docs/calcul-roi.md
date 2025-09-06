@@ -1,3 +1,20 @@
+<!--
+Ajout d'un style pour remplacer le lien de titre automatique du thème par « ACCUEIL ».
+Ce code CSS rend le texte du lien invisible et ajoute le mot « ACCUEIL » à sa place.
+-->
+<style>
+.markdown-body > h1 > a {
+  color: transparent;
+  position: relative;
+}
+.markdown-body > h1 > a::after {
+  content: "ACCUEIL";
+  color: #0969da;
+  position: absolute;
+  left: 0;
+}
+</style>
+
 # Calcul ROI
 
 Le script **calcul-roi.gs** automatise le calcul du retour sur investissement (ROI) dans une feuille Google Sheets. Il insère une formule simple dans la colonne C pour chaque ligne afin de calculer `(Revenus – Coûts) / Coûts`.
