@@ -5,7 +5,7 @@ Ce document décrit le fonctionnement du script **dashboard-temps-reel.gs**. Il 
 ## Utilisation
 
 1. Ouvrez votre Google Sheet et créez un onglet nommé « Dashboard ».
-2. Copiez le contenu du fichier [dashboard-temps-reel.gs](../scripts/dashboard-temps-reel.gs){:target="_blank"} dans un projet Google Apps Script associé à votre feuille.
+2. Copiez le contenu du fichier [dashboard-temps-reel.gs](https://github.com/BoostYourLife/google-sheets-automation-scripts/blob/main/scripts/dashboard-temps-reel.gs){:target="_blank"} dans un projet Google Apps Script associé à votre feuille.
 3. Modifiez les variables `API_URL` et `API_KEY` pour les adapter à votre source de données.
 4. Exécutez la fonction `setupTrigger()` pour mettre en place un déclencheur horaire.
 5. Les données seront automatiquement actualisées dans votre tableau de bord.
