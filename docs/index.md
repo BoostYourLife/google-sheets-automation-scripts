@@ -3,6 +3,9 @@ layout: default
 title: Google Sheets Automation Scripts
 ---
 
+<!-- Image en-tête pour la première page -->
+![Logo Boost Your Life](assets/BYL_Boost_Your_Life_Paysage.png){:style="width:100%; max-width:800px; margin-bottom:20px;"}
+
 # Google Sheets Automation Scripts
 
 Bienvenue sur le site de documentation de la suite de scripts pour Google Apps Script. Ces scripts automatisent vos tâches répétitives dans Google Sheets.
