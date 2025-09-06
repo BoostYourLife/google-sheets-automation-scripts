@@ -1,3 +1,20 @@
+<!--
+Ajout d'un style pour remplacer le lien de titre automatique du thème par « ACCUEIL ».
+Ce code CSS rend le texte du lien invisible et ajoute le mot « ACCUEIL » à sa place.
+-->
+<style>
+.markdown-body > h1 > a {
+  color: transparent;
+  position: relative;
+}
+.markdown-body > h1 > a::after {
+  content: "ACCUEIL";
+  color: #0969da;
+  position: absolute;
+  left: 0;
+}
+</style>
+
 # Planification
 
 Le script **planification.gs** assigne équitablement les tâches de votre feuille à des membres d’équipe. C’est une solution simple pour organiser le travail sans recourir à un outil externe.
