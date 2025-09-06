@@ -8,7 +8,7 @@ Le script **gestion-stock.gs** surveille les niveaux de stock de vos produits et
    - **A :** Nom du produit
    - **B :** Quantité actuelle
    - **C :** Seuil minimal
-2. Copiez [gestion-stock.gs](../scripts/gestion-stock.gs) dans votre projet Apps Script.
+2. Copiez [gestion-stock.gs](../scripts/gestion-stock.gs){:target="_blank"} dans votre projet Apps Script.
 3. Renseignez l’adresse email du responsable dans `STOCK_MANAGER_EMAIL`.
 4. Exécutez `setupTrigger()` pour lancer une vérification quotidienne.
 

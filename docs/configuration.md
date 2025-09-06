@@ -23,4 +23,4 @@ Adaptez ces valeurs pour mieux refléter vos besoins opérationnels.
 
 ## Variables sensibles
 
-Évitez de conserver des données sensibles (clés API, mots de passe) directement dans le code. Utilisez plutôt un document séparé, un script de configuration ou les [propriétés de script](https://developers.google.com/apps-script/guides/properties).
+Évitez de conserver des données sensibles (clés API, mots de passe) directement dans le code. Utilisez plutôt un document séparé, un script de configuration ou les [propriétés de script](https://developers.google.com/apps-script/guides/properties){:target="_blank"}.

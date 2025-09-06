@@ -5,7 +5,7 @@ En utilisant des scripts automatisés avec Google Sheets, il est important de r
 ## Protéger vos données
 
 - Ne partagez jamais vos clés API ou identifiants personnels dans un dépôt public.
-- Utilisez les [propriétés de script](https://developers.google.com/apps-script/guides/properties) pour stocker les secrets de manière sécurisée.
+- Utilisez les [propriétés de script](https://developers.google.com/apps-script/guides/properties){:target="_blank"} pour stocker les secrets de manière sécurisée.
 
 ## Contrôler les autorisations
 

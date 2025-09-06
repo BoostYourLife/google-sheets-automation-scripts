@@ -18,5 +18,5 @@ Cette page recense les problèmes fréquents rencontrés lors de l’utilisation
 
 Lors de la première exécution, Google demande des autorisations. Si vous avez refusé ou si vous souhaitez les modifier :
 
-1. Allez dans [moncompte.google.com/permissions](https://myaccount.google.com/permissions) et révoquez l’accès de l’application.
+1. Allez dans [moncompte.google.com/permissions](https://myaccount.google.com/permissions){:target="_blank"} et révoquez l’accès de l’application.
 2. Exécutez à nouveau le script pour réautoriser.

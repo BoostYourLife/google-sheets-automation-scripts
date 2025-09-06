@@ -6,7 +6,7 @@ Le script **backup-automatique.gs** crée régulièrement une copie de votre fic
 
 1. Ouvrez le fichier Apps Script et remplacez `SOURCE_SPREADSHEET_ID` par l’ID du classeur à sauvegarder (extrait de l’URL : `https://docs.google.com/spreadsheets/d/ID/edit`).
 2. Créez ou identifiez un dossier dans votre Drive où stocker les copies et renseignez son ID dans `BACKUP_FOLDER_ID`.
-3. Lancez `setupTrigger()` pour planifier des sauvegardes hebdomadaires. Vous pouvez modifier la fréquence (voir la [documentation Apps Script](https://developers.google.com/apps-script/reference/script/triggers)).
+3. Lancez `setupTrigger()` pour planifier des sauvegardes hebdomadaires. Vous pouvez modifier la fréquence (voir la [documentation Apps Script](https://developers.google.com/apps-script/reference/script/triggers){:target="_blank"}).
 
 ## Restaurer une sauvegarde
 

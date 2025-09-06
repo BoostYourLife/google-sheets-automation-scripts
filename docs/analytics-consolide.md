@@ -10,7 +10,7 @@ Ce script agrège des données provenant de plusieurs sources (feuilles ou class
 ## Utilisation
 
 1. Mettez à jour la liste `SOURCE_SHEET_IDS` avec les IDs de vos classeurs sources.
-2. Copiez [analytics-consolide.gs](../scripts/analytics-consolide.gs) dans votre projet Apps Script.
+2. Copiez [analytics-consolide.gs](../scripts/analytics-consolide.gs){:target="_blank"} dans votre projet Apps Script.
 3. Exécutez `setupTrigger()` pour automatiser la consolidation quotidienne.
 4. Le script efface le contenu de l’onglet cible à chaque exécution et y colle les nouvelles données.
 

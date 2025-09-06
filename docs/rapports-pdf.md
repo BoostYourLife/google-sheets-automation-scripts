@@ -6,7 +6,7 @@ Le script **rapports-pdf.gs** automatise la génération de rapports PDF à part
 
 1. Renommez ou créez un onglet avec le nom indiqué dans `REPORT_SHEET_NAME` (par défaut : « Rapport »).
 2. Modifiez la liste `PDF_RECIPIENTS` pour y placer les destinataires du rapport.
-3. Copiez [rapports-pdf.gs](../scripts/rapports-pdf.gs) dans votre projet Apps Script.
+3. Copiez [rapports-pdf.gs](../scripts/rapports-pdf.gs){:target="_blank"} dans votre projet Apps Script.
 4. Exécutez `setupTrigger()` pour générer automatiquement le rapport le premier jour de chaque mois à 9 h.
 
 ## Personnalisation

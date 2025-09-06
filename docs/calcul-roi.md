@@ -8,7 +8,7 @@ Le script **calcul-roi.gs** automatise le calcul du retour sur investissement (R
    - **A :** Coût
    - **B :** Revenus
    - **C :** ROI (sera rempli automatiquement)
-2. Copiez le contenu de [calcul-roi.gs](../scripts/calcul-roi.gs) dans votre projet Apps Script.
+2. Copiez le contenu de [calcul-roi.gs](../scripts/calcul-roi.gs){:target="_blank"} dans votre projet Apps Script.
 3. Exécutez la fonction `setupTrigger()` pour programmer un calcul quotidien.
 
 ## Personnalisation

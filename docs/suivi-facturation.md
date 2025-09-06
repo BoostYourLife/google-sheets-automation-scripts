@@ -10,7 +10,7 @@ Le script **suivi-facturation.gs** permet de suivre le règlement des factures e
    - **C :** Email du client
    - **D :** Date d’échéance (format Date)
    - **E :** Statut ("Payé" ou "Impayé")
-2. Copiez [suivi-facturation.gs](../scripts/suivi-facturation.gs) dans votre projet Apps Script.
+2. Copiez [suivi-facturation.gs](../scripts/suivi-facturation.gs){:target="_blank"} dans votre projet Apps Script.
 3. Modifiez éventuellement les index de colonnes (`CLIENT_EMAIL_COL`, `DUE_DATE_COL`, `STATUS_COL`) si votre structure diffère.
 4. Exécutez `setupTrigger()` pour planifier des relances hebdomadaires.
 

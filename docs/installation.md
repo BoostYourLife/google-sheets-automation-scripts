@@ -6,7 +6,7 @@ Ce guide explique comment mettre en place l’ensemble des scripts présents dan
 
 1. **Fork et clonage :** commencez par forker ce dépôt sur votre compte GitHub, puis clonez votre fork en local avec `git clone`.
 2. **Google Compte :** assurez‑vous de disposer d’un compte Google Workspace ou Gmail standard.
-3. **Accès Apps Script :** connectez‑vous à [Google Apps Script](https://script.google.com/) et familiarisez‑vous avec l’interface.
+3. **Accès Apps Script :** connectez‑vous à [Google Apps Script](https://script.google.com/){:target="_blank"} et familiarisez‑vous avec l’interface.
 
 ## Importer un script
 
